@@ -117,8 +117,39 @@ def getChange(diff):
             break
 
 
-    print(f"Change needed is: {hCount} $100 Dollar Bills, {fCount} $50 Dollar Bills, {tCount} $20 Dollar Bills, {teCount} $10 Dollar Bills, {fiCount} $5 Dollar Bills, {qCount} quarters, {dCount} dimes, {nCount} nickels, {pCount} pennies.")
+    #print(f"Change needed is:\n{hCount} $100 Dollar Bills\n{fCount} $50 Dollar Bills\n{tCount} $20 Dollar Bills\n{teCount} $10 Dollar Bills\n{fiCount} $5 Dollar Bills\n{oCount} $1 Dollar Bills\n{qCount} quarters\n{dCount} dimes\n{nCount} nickels\n{pCount} pennies\n")
+    print("---Change---")
+    
+    if hCount > 0:
+        print(f"{hCount} $100 Dollar Bills")
 
+    if fCount > 0:
+        print(f"{fCount} $50 Dollar Bills")
+    
+    if tCount > 0:
+        print(f"{tCount} $20 Dollar Bills")
+    
+    if teCount > 0:
+        print(f"{teCount} $10 Dollar Bills")
+
+    if fiCount > 0:
+        print(f"{fiCount} $5 Dollar Bills")
+
+    if oCount > 0:
+        print(f"{oCount} $1 Dollar Bills")
+
+    if qCount > 0:
+        print(f"{qCount} Quarters")
+    
+    if dCount > 0:
+        print(f"{dCount} Dimes")
+    
+    if nCount > 0:
+        print(f"{nCount} Nickels")
+    
+    if pCount > 0:
+        print(f"{pCount} Pennies")
+    
 def main():
     calcMoney()
     while True:
