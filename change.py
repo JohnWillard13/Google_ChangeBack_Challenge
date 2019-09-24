@@ -116,9 +116,7 @@ def getChange(diff):
         else:
             break
 
-
-    #print(f"Change needed is:\n{hCount} $100 Dollar Bills\n{fCount} $50 Dollar Bills\n{tCount} $20 Dollar Bills\n{teCount} $10 Dollar Bills\n{fiCount} $5 Dollar Bills\n{oCount} $1 Dollar Bills\n{qCount} quarters\n{dCount} dimes\n{nCount} nickels\n{pCount} pennies\n")
-    print("---Change---")
+    print("---Change Needed---")
     
     if hCount > 0:
         print(f"{hCount} $100 Dollar Bills")
