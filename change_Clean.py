@@ -34,7 +34,7 @@ def calcMoney():
 
     elif cost < pay:
         remain = pay - cost
-        print(f"======Change needed is ${remain}======")
+        print(f"======Change needed is ${round(remain,2)}======")
         calcChange(remain)
 def calcChange(remain):
     C_VALUES = [100,50,20,10,5,1,0.25,0.10,0.05,0.01]
